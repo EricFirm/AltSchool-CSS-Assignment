@@ -1,0 +1,701 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Cover Page Styling */
+.cover__hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Pictures/cover-page\ bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover__hero h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    color: rgb(255, 90, 118);
+}
+
+.cover__hero nav{
+    width: 80%;
+    padding: 10px;
+    margin: 80px auto;
+}
+
+.cover__hero nav ul{
+    margin: 20px;
+    display: flex;
+}
+
+.cover__hero nav ul li{
+    padding: 20px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.cover__hero nav ul li a{
+    padding: 13px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #b8860b;
+    border: 3px solid rgb(60, 60, 198);
+    border-radius: 15px;
+}
+
+/* Essay styling */
+.essay{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.essay-block{
+    background-color: #242222;
+    border: 20px solid #b5b2b2;
+    height: 80%;
+    width: 60%;
+    margin: auto;
+}
+
+.essay-card{
+    position: relative;
+}
+
+.essay-card p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 500px;
+    line-height: 32px;
+    background-color: #fff;
+    padding: 120px 30px 50px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    left: 160px;
+}
+
+.essay-card h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 42px;
+    font-weight: bolder;
+    background-color: #ff1493;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 100px;
+    left: 210px;
+    z-index: 1;
+}
+
+/* Novus styling */
+.novus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.novus-card{
+    background-color: rgb(134, 134, 241) ;
+    border: 15px solid rgb(207, 134, 207);
+    height: 600px;
+    width: 60%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.novus-card .upper__novus-card p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 208, 146);
+    padding: 5px;
+    border-radius: 4px 10px 10px 4px;
+    width: 250px;
+    position: absolute;
+    top: 70px;
+    left: 178px;
+}
+
+.novus-card .upper__novus-card img{
+    height: 300px;
+    width: 550px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.novus-card .lower__novus-card{
+    width: 550px;
+    background-color: #fff;
+    margin-top: -10px;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.novus-card .lower__novus-card h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 0px 20px;
+}
+
+.novus-card .lower__novus-card span{
+    font-size: 20px;
+    color: #b5b2b2;
+}
+
+.novus-card .lower__novus-card p{
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+/* Huckleberry styling */
+.huck{
+    width: 100%;
+}
+
+.huck-top{
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 50px;
+    width: 100%;
+    height: 382px;
+    border: 8px solid #fff;
+}
+
+.huck-top h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-left: 200px;
+    width: 180px;
+    height: 38px;
+    padding: 20px 0 50px 50px;
+}
+
+.huck-top p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 200px;
+    width: 415px;
+    height: 60px;
+    padding: 20px 0 50px 50px;
+}
+
+.huck-top p span{
+    color: #009966;
+    font-weight: 800;
+}
+
+.huck-bottom{
+    background-color: #666;
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    padding: 50px;
+    border-top: 8px solid #999;
+}
+
+.huck-bottom .huck-bottom__card{
+    position: relative;
+    width: 800px;
+    height: 312px;
+    background-color: #fff;
+    border-bottom: 8px solid #999;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.huck-bottom .huck-bottom__card h2{
+    font-size: 24px;
+    font-weight: 800;
+    width: 398px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffbf00;
+    border-bottom: 8px solid #cc9900;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 7px;
+    left: -10px;
+}
+
+.huck-bottom .huck-bottom__card p{
+   width: 752px;
+   height: 120px;
+   padding: 0 20px 20px 30px;
+   font-size: 20px;
+   font-weight: 500;
+   position: absolute;
+   top: 80px;
+   line-height: 30px;
+}
+
+/* Webdev styling */
+.form-container{
+    display: flex;
+    max-width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.form-right{
+    width: 50%;
+    height: 679px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-right img{
+    width: 80px;
+    height: 80px;
+    box-shadow: 2px 2px 3px rgba(0, 0 , 0 , 0.3);
+    margin-left: 80px;
+}
+
+.form-right h1{
+    padding: 30px 0;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 80px;
+    color: #000;
+}
+
+.form-right p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 80px;
+    line-height: 25px;
+    color: #737373;
+}
+
+.form-left{
+    width: 50%;
+    margin: 0 40px;
+    background-color: #fff;
+    box-shadow: 10px 10px 15px rgba(0, 0 , 0 , 0.3);
+    height: 679px;
+}
+.form-wrap {
+    background: #fff;
+    padding: 15px 25px;
+    color: #333;
+}
+
+.form-wrap .form-group {
+    margin-top: 15px;
+}
+
+.form-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.form-wrap .form-group label{
+    display: block;
+    color: #011c34;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-wrap .form-group input{
+    width: 100%;
+    padding: 8px;
+    border: #2ec4b6 1px solid;
+    box-shadow: 2px 0px 0px rgba(0, 0 , 0 , 0.05);
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #737373;
+    font-family: 'montserrat';
+}
+
+.form-wrap .form-group select{
+    width: 100%;
+    padding: 8px;
+    font-weight: 300;
+    border: #2ec4b6 1px solid;
+    box-shadow: 2px 0px 0px rgba(0, 0 , 0 , 0.05);
+    border-radius: 2px;
+    color: #737373;
+    font-size: 14px;
+    font-family: 'montserrat';
+}
+
+.form-wrap button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #2ec4b6;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #2ec4b6;
+    border-radius: 2px;
+    font-family: 'montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.form-wrap button:hover{
+    background-color: #058d7f;
+    transition: 1s;
+}
+
+.form-wrap .bottom-text{
+    font-weight: 400;
+    font-size: 13px;
+    margin: 30px 0;
+}
+
+.form-wrap .bottom-text a{
+    color: #2ec4b6;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Styling for WP pusher */
+.wppusher{
+    width: 100%;
+    background-color: #f5f8fa;
+}
+.wppusher-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+}
+
+.wppusher-nav img{
+    height: 39px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.wppusher-nav ul{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wppusher-nav ul li{
+    margin: 0 auto;
+    list-style: none;
+}
+
+.wppusher-nav ul li a{
+    padding: 13px;
+    color: #1d2c3c;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.wppusher-nav ul li a:hover{
+    color: blue;
+    transition: 1s;
+}
+
+.account{
+    border: 1px solid #1d2c3c;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.account:hover{
+    background-color:azure
+}
+
+hr{
+    margin: 5px 15px;
+    color: #e0e6ea;
+}
+
+.checkout-card{
+    display: flex;
+    width: 70%;
+    height: 845px;
+    margin: 80px auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0 , 0 , 0.3); 
+}
+
+.left__checkout-card{
+    width: 60%;
+    background-color: #fff;
+}
+
+.info-1{
+    margin: 20px;
+    padding: 20px;
+}
+
+.info-1 h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: #1d2c3c;
+    text-shadow: 0px 3px 0px rgba(0, 0 , 0 , 0.05);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e6ea ;
+}
+
+.info-1 h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1d2c3c;
+    margin: 8px 2px;
+}
+
+.info-1 h2 span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #548bc5;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.info-2{
+    margin: 20px;
+    padding: 20px;
+}
+
+.info-2 h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: #1d2c3c;
+    text-shadow: 0px 3px 0px rgba(0, 0 , 0 , 0.05);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e6ea ;
+}
+
+.info-2 h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1d2c3c;
+    margin: 0px 2px 2px 0;
+}
+
+.info-2 h2 span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #548bc5;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.info__form-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.info__form-group label{
+    display: block;
+    color: #1d2c3c;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 50px;
+    margin-bottom: 3px;
+}
+
+.info__form-group input{
+    width: 100%;
+    padding: 5px;
+    background-color: #edeff2;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    font-weight: 300;
+    margin-bottom: 8px;
+    color: #737373;
+    font-family: 'montserrat';
+}
+
+.wp-button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 60px 20px 40px 0px ;
+    background-color: #038e7d;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.5s;
+    border: none;
+}
+
+.wp-button:hover{
+    background-color: #0b645a ;
+}
+
+.helpline{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.helpline span{
+    font-weight: 700;
+}
+
+.fa-solid{
+    color: #038e7d;
+}
+
+.stripe{
+    background-color: #dadada;
+    color: #fff;
+    width: 92px;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 1px;
+    margin: 0 auto;
+}
+
+.stripe span{
+    font-weight: 700;
+}
+
+@media (min-width: 768px ) and (max-width: 1024px) {
+    .huck{
+        background-color: #fff;
+    }
+
+    .huck-top{
+        width: 768px;
+        padding: 0;
+    }
+
+    .huck-top h2{
+        margin-left: 20px;
+    }
+
+    .huck-top p{
+        margin-left: 20px;
+    }
+
+    .huck-bottom{
+        height: 456px;
+        width: 776px;
+    }  
+
+    .form-right img{
+        width: 60px;
+        height: 60px;
+        margin-left: 50px;
+    }
+
+    .form-right h1{
+        font-size: 32px;
+        margin-left: 50px;
+    }
+
+    .form-right p{
+        margin-left: 50px;
+    }
+}
+
+
+
+@media only screen and (max-width: 767px){
+    .huck{
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .huck-top{
+        width: 100%;
+        height: 382px;
+        padding: 0;
+    }
+
+    .huck-top h2{
+        margin-left: 10px;
+        padding: 20px 0;
+    }
+
+    .huck-top p{
+        margin-left: 10px;
+        padding: 20px 0;
+    }
+
+    .huck-bottom{
+        width: 100%;
+        height: 767px;
+    }
+
+    .huck-bottom .huck-bottom__card h2{
+        height: 78px;
+        width: 378px;
+        margin-left: 20px;
+    }
+
+
+
+    .form-container{
+        display: block;
+
+    }
+
+
+    .form-right{
+        width: 100%;
+        margin: 20px;
+        height: auto;
+    }
+
+    .form-right img{
+        width: 40px;
+        height: 40px;
+        margin-left: 0px;
+    }
+
+    .form-right h1{
+        font-size: 30px;
+        margin-left:0px;
+    }
+
+    .form-right p{
+        margin-left: 0px;
+    }
+
+    .form-content{
+        display: block;
+    }
+
+    .form-left{
+        width: 100%;
+        margin: 0;
+    }
+
+}
